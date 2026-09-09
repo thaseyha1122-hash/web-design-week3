@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            background-color: rgb(4, 48, 102);
+            width: 700px;
+            display: grid;
+            grid-template-columns: 1fr 10em;
+            column-gap: 3em;
+            padding-left: 3em;
+            padding-right: 3em;
+        }
+        .left{
+            background-color: rgb(192, 234, 245);
+        }
+        .right{
+            display: grid;
+            grid-template-rows: 100px 100px 100px;
+            row-gap: 1em;
+            padding: 1em;
+            background-color: pink;
+        }
+        .right div{
+            background-color: rgb(41, 125, 198);
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left"></div>
+        <div class="right">
+            <div class="box1"></div>
+            <div class="box2"></div>
+            <div class="box3"></div>
+        </div>
+    </div>
+</body>
+</html>
